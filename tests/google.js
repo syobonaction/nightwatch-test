@@ -23,6 +23,7 @@ module.exports = {
             .click(languageDropdownValueSelector)
             .click(lastUpdatedDropdownOpenerSelector)
             .click(lastUpdatedDropdownValueSelector)
+            .perform(() => {debugger})
             .click(submitButtonSelector)
 
             // Parameter assertions
